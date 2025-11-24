@@ -1,4 +1,5 @@
-import requests
+#pip install requests 
+import requests 
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -48,4 +49,5 @@ print(f"Sunrise: {resultado['Sunrise']}")
 print(f"Sunset: {resultado['Sunset']}")
 print("Atividades:")
 for atividade in resultado["atividades"]:
+
     print(f" {atividade}")
